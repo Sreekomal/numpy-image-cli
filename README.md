@@ -99,3 +99,55 @@ Pull requests are welcome! Feel free to fork and build on this.
 This project is licensed under the MIT License.
 
 ---
+Absolutely! Here's a clean **"How to Run"** section you can add to your GitHub README:
+
+---
+
+## 🚀 How to Run
+
+### 📋 Prerequisites
+
+* Python 3.x installed
+* `numpy` library installed (you can install it via pip)
+
+```bash
+pip install numpy
+```
+
+---
+
+### ▶️ Run the Program
+
+1. Open a terminal and navigate to the project directory.
+
+2. Use the following command format:
+
+```bash
+python image_processor.py input.pgm output.pgm [options]
+```
+
+### 🛠️ Available Options
+
+* `--invert` → Invert the image colors
+* `--threshold VALUE` → Apply binary thresholding at a given value (0–255)
+* `--contrast` → Apply contrast stretching
+* `--ascii` → Show ASCII art preview
+* `--stats` → Show image statistics
+
+---
+
+### 💡 Example Command
+
+```bash
+python image_processor.py sample.pgm result.pgm --invert --ascii --stats
+```
+
+This will:
+
+* Invert the grayscale image
+* Show ASCII previews (before & after)
+* Print image statistics to the terminal
+
+---
+
+
